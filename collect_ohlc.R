@@ -42,5 +42,5 @@ load_OHLC <- function(name, site, pair) {
 args <- commandArgs(TRUE)
 tmp = sprintf("Arguments: '%s', '%s', '%s'\n", args[1], args[2], args[3])
 cat(tmp)
-#load_OHLC("realname", "api.kraken.com/0/public/OHLC", "XBTEUR")
+
 load_OHLC(args[1], args[2], args[3])
